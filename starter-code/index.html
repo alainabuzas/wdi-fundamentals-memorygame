@@ -1,34 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
-	
-  <head>
-    <title>Memory Game</title>
-  </head>
-  
-    <nav class="clearfix">
-      <a href="#">Instructions</a>
-      <a href="#">Game</a>
-    </nav>
-    
-    <body>
-    	<h1>Memory Game</h1>
-    	<h2>Instructions</h2>
-    	<p>
-    		Concentration, also known as Match Match, Memory, Pelmanism, Shinkei-suijaku, Pexeso or simply Pairs, is a card game in which all of the cards are laid face down on a surface and two cards are         flipped face up over each turn. The object of the game is to turn over pairs of matching cards.
-    	</p>
-    	
-    	<div class="board">
-		<div class="card"></div>
-		<div class="card"></div>
-		<div class="card"></div>
-		<div class="card"></div>
-  	</div>
-  
-  	<footer>
-  		Created with &hearts; by <span class="name">GA</span>
-	</footer>
+<!--
+Created using JS Bin
+http://jsbin.com
 
-     </body>
+Copyright (c) 2017 by alainabuzas (http://jsbin.com/becagoz/1/edit)
 
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<link rel="stylesheet" type="text/css" href="/main.css"
+<html>
+<head>
+  <title>Jog Your Memory</title>
+<style id="jsbin-css">
+h1  {
+  color: rgb(2,132,130);
+}
+h2 {
+  color: #ffd700;
+}
+span {
+  color: #ff0000;
+}
 
+body {
+  text-align: center;
+  }
+
+.board {
+  height: 80%;
+  width: 50%;
+  display: inline-block;
+}
+
+.card {
+    border: 1px #000000;  
+    border-style: solid;
+    height: 200px;
+    width: 150px;
+    background-color: #ffff00;
+    border-radius: 10px;
+}
+</style>
+</head>
+<body>
+  <h1>Jog Your Memory</h1>
+  <h3>A memory game for brain builders and pun lovers. Created by <a href="http://alainabuzas.com/">Alaina Buzas</a>.
+  <h2>Instructions</h2>
+  <p>Concentration, also known as Match Match, Memory, Pelmanism, Shinkei-suijaku, Pexeso, or Pairs, is a card game in which all of the cards are laid facedown on a surface and two cards are flipped face up over each turn. The object of the game is to turn over pairs of matching cards.
+  </p>
+  <div class="board">
+    <div class="card"></div>
+    <div class="card"></div>
+    <div class="card"></div>
+    <div class="card"></div>
+  </div>
+  <script src="main.js"></script>
+</body>
+<footer>
+<p>Created with &hearts; by <span>AMB</span></p>
+</footer>
 </html>
