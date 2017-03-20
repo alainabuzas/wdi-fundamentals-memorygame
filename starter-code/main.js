@@ -4,8 +4,13 @@ var cardTwo = "queen";
 var cardThree = "king";
 var cardFour = "king";
 
-if (cardThree === cardFour) {
-	alert ('You found a match!');
-} else {
-	alert ('Sorry, try again.');
+var gameBoard = document.getElementById('game-board');
+
+var createCards = function() {
+	for (var i = 0; i < 4; i++){
+		var cardDiv = document.createElement('div');
+		cardDiv.className = "card";
+		gameBoard.appendChild(cardDiv);
+	}
 }
+	createCards(4);
